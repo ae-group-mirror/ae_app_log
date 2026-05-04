@@ -1,0 +1,2 @@
+# ae.log has no external runtime dependencies
+# ae_core is optional/added-by-app-project; if available then ErrorMsgMixin will use the core/console app logging
