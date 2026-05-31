@@ -1,4 +1,4 @@
-# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls v0.3.77
+# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls v0.3.79
 """ setup of ae namespace module portion app_log: runtime logging helpers. """
 import sys
 # noinspection PyUnresolvedReferences
@@ -73,7 +73,7 @@ setup_kwargs = {
     },
     'python_requires': '>=3.12',
     'url': 'https://gitlab.com/ae-group/ae_app_log',
-    'version': '0.3.1',
+    'version': '0.3.2',
     'zip_safe': True,
 }
 
