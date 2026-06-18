@@ -7,7 +7,7 @@ runtime logging helpers
 """
 
 
-__version__ = '0.3.2'
+__version__ = '0.3.3'
 
 
 class ErrorMsgMixin:                                                # pylint: disable=too-few-public-methods
@@ -23,7 +23,7 @@ class ErrorMsgMixin:                                                # pylint: di
             from ae.core import main_app_instance       # type: ignore # pylint: disable=import-outside-toplevel
 
             self.main_app = main_app = main_app_instance()
-            assert main_app is not None, f"{self.__class__.__name__}.__init__() called too early; main app instance not"
+            assert main_app is not None, f"{self.__class__.__name__}.__init__() called too early; no main app instance"
 
             self.po = main_app.po
             self.dpo = main_app.dpo
