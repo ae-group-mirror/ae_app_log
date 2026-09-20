@@ -2,12 +2,11 @@
 runtime logging helpers
 =======================
 
-* :class:`ErrorMsgMixin`: a mixin class that extends any class with a sophisticated error message handling and
-  logging.
+this portion is providing a lightweight mixin class that extends any class instance with error messages and logging.
 """
 
 
-__version__ = '0.3.3'
+__version__ = '0.3.4'
 
 
 class ErrorMsgMixin:                                                # pylint: disable=too-few-public-methods
@@ -19,7 +18,7 @@ class ErrorMsgMixin:                                                # pylint: di
     def __init__(self):
         """ try to initialize and use app environment logging output methods from the main app instance. """
         self._errors: list[str] = []
-        try:                                            # pragma: no cover
+        try:
             from ae.core import main_app_instance       # type: ignore # pylint: disable=import-outside-toplevel
 
             self.main_app = main_app = main_app_instance()
@@ -46,8 +45,8 @@ class ErrorMsgMixin:                                                # pylint: di
     @error_message.setter
     def error_message(self, next_err_msg: str):
         if next_err_msg:
-            if "WARNING" in next_err_msg.upper():
-                self.vpo(f" .::. {next_err_msg}")
+            if 'WARNING' in next_err_msg.upper():
+                self.vpo(f"  .:. {next_err_msg}")
             else:
                 self.dpo(f" .::. {next_err_msg}")
             self._errors.append(next_err_msg)
