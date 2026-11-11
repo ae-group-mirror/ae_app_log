@@ -1,3 +1,1 @@
-# this portion has only one OPTIONAL external runtime dependencies.
-# ae_core is optional, and gets automatically added by any app project.
-# :class:`ErrorMsgMixin` uses the enhanced core/console app output methods for logging if ae.core is installed.
+# this portion has only the ae.core portion as an OPTIONAL external runtime dependency

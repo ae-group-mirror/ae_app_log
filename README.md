@@ -1,12 +1,12 @@
 <!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project ae.ae v0.3.110 -->
 <!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.namespace_root_tpls v0.3.33 -->
-# app_log 0.3.4
+# app_log 0.4.4
 
 [![GitLab develop](https://img.shields.io/gitlab/pipeline/ae-group/ae_app_log/develop?logo=python)](
     https://gitlab.com/ae-group/ae_app_log)
 [![LatestPyPIrelease](
-    https://img.shields.io/gitlab/pipeline/ae-group/ae_app_log/release0.3.4?logo=python)](
-    https://gitlab.com/ae-group/ae_app_log/-/tree/release0.3.4)
+    https://img.shields.io/gitlab/pipeline/ae-group/ae_app_log/release0.4.4?logo=python)](
+    https://gitlab.com/ae-group/ae_app_log/-/tree/release0.4.4)
 [![PyPIVersions](https://img.shields.io/pypi/v/ae_app_log)](
     https://pypi.org/project/ae-app-log/#history)
 
